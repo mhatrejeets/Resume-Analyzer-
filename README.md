@@ -19,3 +19,5 @@ To build and run the application, you will need:
 - Run java -jar target/resumeatschecker.jar to start the application
 
 ## For Front end 
+Before building this app save the index5.html file to your local machine.
+Also adjust the port for front end into the 

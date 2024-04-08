@@ -18,14 +18,4 @@ To build and run the application, you will need:
 - Run mvn package to build the application
 - Run java -jar target/resumeatschecker.jar to start the application
 
-## Usage:
-
-- Open a REST API client tool such as Postman
-- Send a POST request to http://localhost:8080/check-resume
-- Attach a resume PDF file to the request using the "file" parameter
-- Provide the job description as a string using the "desc" parameter
-- Send the request
-- The application will return the percentage of matched keywords and any unmatched keywords found in the resume in JSON format.
-
-## Acknowledgments
-This project was inspired by the need to optimize resumes for ATS systems, and is made possible by the Apache OpenNLP library.
+## For Front end 

@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 @Service
-@Sl4j
 public class ScanPdfService {
 
 	public String scanPdfFromFile(MultipartFile file) throws IOException {
